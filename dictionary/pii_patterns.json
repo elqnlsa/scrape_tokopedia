@@ -1,0 +1,12 @@
+[
+  {
+    "id": "pii_phone",
+    "pattern": "\\b(?:\\+62|62|0)(?:\\d{2,3}[- ]?){2,4}\\d{3,4}\\b",
+    "example": "+6281234567890"
+  },
+  {
+    "id": "pii_email",
+    "pattern": "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b",
+    "example": "customer123@gmail.com"
+  }
+]
